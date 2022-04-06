@@ -1,3 +1,4 @@
+/* eslint-disable */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -7,7 +8,7 @@
   \***********************/
 /***/ (() => {
 
-console.log('yesssss');
+
 
 /***/ }),
 
@@ -31,7 +32,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\n.head, .main {\r\n  width: 500px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.main {\r\n  display: flex;\r\n  gap: 20px;\r\n}\r\n\r\n.refresh {\r\n  display: flex;\r\n  gap: 10px;\r\n}\r\n\r\n.single-score {\r\n  list-style: none;\r\n}\r\n\r\n.form {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: flex-end;\r\n  gap: 20px;\r\n}\r\n\r\ninput {\r\n  height: 26px;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;AACZ;;AAEA;EACE,YAAY;EACZ,cAAc;AAChB;;AAEA;EACE,aAAa;EACb,SAAS;AACX;;AAEA;EACE,aAAa;EACb,SAAS;AACX;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,qBAAqB;EACrB,SAAS;AACX;;AAEA;EACE,YAAY;AACd","sourcesContent":["body {\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\n.head, .main {\r\n  width: 500px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.main {\r\n  display: flex;\r\n  gap: 20px;\r\n}\r\n\r\n.refresh {\r\n  display: flex;\r\n  gap: 10px;\r\n}\r\n\r\n.single-score {\r\n  list-style: none;\r\n}\r\n\r\n.form {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: flex-end;\r\n  gap: 20px;\r\n}\r\n\r\ninput {\r\n  height: 26px;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\n.head {\r\n  margin-top: 20%;\r\n}\r\n\r\n.head,\r\n.main {\r\n  width: 500px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.main {\r\n  display: flex;\r\n  gap: 70px;\r\n}\r\n\r\n.scores {\r\n  width: 50%;\r\n}\r\n\r\n.refresh {\r\n  display: flex;\r\n  gap: 10px;\r\n  align-items: center;\r\n}\r\n\r\n.recent-scores {\r\n  font-size: 23px;\r\n}\r\n\r\n.refresh-btn {\r\n  height: max-content;\r\n}\r\n\r\n.single-score {\r\n  list-style: none;\r\n}\r\n\r\n.add-scores {\r\n  width: 50%;\r\n}\r\n\r\n.form {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: flex-end;\r\n  gap: 20px;\r\n}\r\n\r\ninput {\r\n  height: 26px;\r\n  width: 100%;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;AACZ;;AAEA;EACE,eAAe;AACjB;;AAEA;;EAEE,YAAY;EACZ,cAAc;AAChB;;AAEA;EACE,aAAa;EACb,SAAS;AACX;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,aAAa;EACb,SAAS;EACT,mBAAmB;AACrB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,qBAAqB;EACrB,SAAS;AACX;;AAEA;EACE,YAAY;EACZ,WAAW;AACb","sourcesContent":["body {\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\n.head {\r\n  margin-top: 20%;\r\n}\r\n\r\n.head,\r\n.main {\r\n  width: 500px;\r\n  margin: 0 auto;\r\n}\r\n\r\n.main {\r\n  display: flex;\r\n  gap: 70px;\r\n}\r\n\r\n.scores {\r\n  width: 50%;\r\n}\r\n\r\n.refresh {\r\n  display: flex;\r\n  gap: 10px;\r\n  align-items: center;\r\n}\r\n\r\n.recent-scores {\r\n  font-size: 23px;\r\n}\r\n\r\n.refresh-btn {\r\n  height: max-content;\r\n}\r\n\r\n.single-score {\r\n  list-style: none;\r\n}\r\n\r\n.add-scores {\r\n  width: 50%;\r\n}\r\n\r\n.form {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: flex-end;\r\n  gap: 20px;\r\n}\r\n\r\ninput {\r\n  height: 26px;\r\n  width: 100%;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -630,8 +631,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
 
 
-console.log('okkkkk');
-console.log('okyess');
 })();
 
 /******/ })()

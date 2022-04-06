@@ -7,7 +7,8 @@ body {
   margin-top: 20%;
 }
 
-.head, .main {
+.head,
+.main {
   width: 500px;
   margin: 0 auto;
 }
@@ -32,7 +33,7 @@ body {
 }
 
 .refresh-btn {
-  height: fit-content;
+  height: max-content;
 }
 
 .single-score {
