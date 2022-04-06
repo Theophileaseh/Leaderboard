@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+.head {
+  margin-top: 20%;
+}
+
 .head, .main {
   width: 500px;
   margin: 0 auto;
