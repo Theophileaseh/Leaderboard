@@ -1,41 +1,36 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path')
 
 module.exports = {
-  entry: {
-    index: './src/index.js',
-  },
-  devServer: {
-    contentBase: './dist',
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      title: 'Output Management',
-      template: './src/index.html',
-    }),
-  ],
+  mode: 'development',
+
+  entry: './src/index.js',
   output: {
-    filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist'),
-    clean: true,
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'public')
   },
+
   module: {
     rules: [
       {
-        test: /\.html$/i,
-        loader: "html-loader",
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader'
+        }
       },
       {
         test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
+        use: ["css-loader"],
       },
-      {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
-      },
-    ],
+    ]
   },
-  experiments: {
-    topLevelAwait: true,
-  },
-};
+
+  // this shows the source of each file on the console
+  devtool: 'source-map',
+
+
+  // local server
+  devServer: {
+    static: './dist'
+  }
+}
