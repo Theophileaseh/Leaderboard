@@ -9,6 +9,7 @@ module.exports = {
     path: path.resolve(__dirname, 'public')
   },
 
+
   module: {
     rules: [
       {
@@ -20,7 +21,11 @@ module.exports = {
       },
       {
         test: /\.css$/i,
-        use: ["css-loader"],
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.html$/i,
+        loader: "html-loader",
       },
     ]
   },
@@ -31,6 +36,6 @@ module.exports = {
 
   // local server
   devServer: {
-    static: './dist'
+    static: './public'
   }
 }

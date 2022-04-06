@@ -10,16 +10,33 @@ body {
 
 .main {
   display: flex;
-  gap: 20px;
+  gap: 70px;
+}
+
+.scores {
+  width: 50%;
 }
 
 .refresh {
   display: flex;
   gap: 10px;
+  align-items: center;
+}
+
+.recent-scores {
+  font-size: 23px;
+}
+
+.refresh-btn {
+  height: fit-content;
 }
 
 .single-score {
   list-style: none;
+}
+
+.add-scores {
+  width: 50%;
 }
 
 .form {
@@ -31,4 +48,5 @@ body {
 
 input {
   height: 26px;
+  width: 100%;
 }

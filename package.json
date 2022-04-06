@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --watch"
+    "build": "webpack --watch",
+    "build-dev": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,8 @@
   },
   "devDependencies": {
     "css-loader": "^6.7.1",
+    "html-loader": "^3.1.0",
+    "style-loader": "^3.3.1",
     "webpack-dev-server": "^4.8.0"
   }
 }
