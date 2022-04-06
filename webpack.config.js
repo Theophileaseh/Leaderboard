@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'development',
 
-  entry: './src/index.js',
+  entry:['babel-regenerator-runtime', './src/index.js'],
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Leaderboard',

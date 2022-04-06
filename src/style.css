@@ -36,8 +36,24 @@ body {
   height: max-content;
 }
 
+.main-scores {
+    border: 2px solid #000;
+    border-radius: 3px;
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+    overflow-y: auto;
+}
+
+.score-list {
+  padding: 0;
+}
+
 .single-score {
   list-style: none;
+  font-size: 20px;
+  padding: 8px;
+  width: 90%;
 }
 
 .add-scores {
