@@ -8,7 +8,7 @@ module.exports = {
   entry: './src/index.js',
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Output Management',
+      title: 'Leaderboard',
       template: './src/index.html',
     }),
   ],
