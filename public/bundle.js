@@ -1,5 +1,5 @@
 /* eslint-disable */
-/******/ (() => { // webpackBootstrap
+it commit -m "Fix/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./src/index.js":
