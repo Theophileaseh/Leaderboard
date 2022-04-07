@@ -1,16 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 body {
   margin: 0;
   padding: 0;
+  background: #120212;
+  font-family:'Lobster', sans-serif;
 }
 
 .head {
-  margin-top: 20%;
+  margin-top: 20% !important;
+  color: #fff;
+}
+
+.heading {
+  font-size: 45px;
 }
 
 .head,
 .main {
   width: 500px;
   margin: 0 auto;
+  color: #fff;
 }
 
 .main {
@@ -37,12 +46,13 @@ body {
 }
 
 .main-scores {
-  border: 2px solid #000;
+  border: 2px solid #fff;
   border-radius: 3px;
   width: 100%;
   padding: 10px;
-  height: 200px;
+  max-height: 200px;
   overflow-y: auto;
+  color: #fff;
 }
 
 .score-list {
@@ -68,6 +78,22 @@ body {
 }
 
 input {
-  height: 26px;
+  height: 31px;
   width: 100%;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.submit {
+  border: none;
+  padding: 8px 15px;
+  border-radius: 3px;
+  color: #120212;
+}
+
+.submit:hover {
+  border: 2px solid #fff;
+  background: #120212;
+  color: #fff;
+
 }
