@@ -6,7 +6,7 @@
 
 ## Website Link
 
-[Click to see Website](https://theophileaseh.github.io/)
+[Click to see Website](https://theophileaseh.github.io/Leaderboard/)
 
 ## Screenshot
 
