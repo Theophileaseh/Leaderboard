@@ -2,7 +2,7 @@
 
 # Project Name
 
-> Software Developer Portfolio
+> Leaderboard
 
 ## Website Link
 
@@ -10,14 +10,16 @@
 
 ## Screenshot
 
-![Screenshot](./images/screenshot.png)
-![Screenshot](./images/screenshot2.png)
+![Screenshot](./img/screenshot.png)
 
 
 ## Built With
 
 - CSS
 - HTML
+- Javascript
+- Node_modules
+- Webpack
 
 
 ## Getting Started
