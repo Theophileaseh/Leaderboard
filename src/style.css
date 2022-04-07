@@ -54,6 +54,7 @@ body {
   max-height: 200px;
   overflow-y: auto;
   color: #fff;
+  overflow-x: hidden;
 }
 
 .score-list {
