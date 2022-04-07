@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+
 body {
   margin: 0;
   padding: 0;
   background: #120212;
-  font-family:'Lobster', sans-serif;
+  font-family: 'Lobster', sans-serif;
 }
 
 .head {
@@ -95,5 +96,4 @@ input {
   border: 2px solid #fff;
   background: #120212;
   color: #fff;
-
 }
