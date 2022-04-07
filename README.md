@@ -1,52 +1,25 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard Website
 
-> Leaderboard
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external [Leaderboard API service](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3).
+
 
 ## Website Link
 
-[Click to see Website](https://theophileaseh.github.io/)
+[Click to see Website](https://theophileaseh.github.io/Leaderboard/)
 
 ## Screenshot
 
 ![Screenshot](./img/screenshot.png)
 
-
 ## Built With
 
-- CSS
-- HTML
-- Javascript
-- Node_modules
-- Webpack
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Major languages: Javascript, HTML & CSS
+- Frameworks: none
+- Technologies used: Webpack, Leaderboard API service
 
 ## Authors
-
-👤 **Author1**
+👤 **Nwachan Theophile**
 
 - GitHub: [@Theophileash](https://github.com/Theophileaseh)
 - Twitter: [@NwachanT](https://twitter.com/NwachanT)
