@@ -1,4 +1,3 @@
-/* eslint-disable */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -124,7 +123,7 @@ var createGame = /*#__PURE__*/function () {
             return cross_fetch__WEBPACK_IMPORTED_MODULE_0___default()('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
               method: 'POST',
               body: JSON.stringify({
-                name: 'My ScoreBoard'
+                name: 'Leaderboard'
               }),
               headers: {
                 'Content-type': 'application/json; charset=UTF-8'

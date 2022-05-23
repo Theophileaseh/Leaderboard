@@ -9,7 +9,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --watch",
     "deploy": "gh-pages -d public"
-
   },
   "repository": {
     "type": "git",
