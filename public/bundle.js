@@ -120,15 +120,7 @@ var createGame = /*#__PURE__*/function () {
         switch (_context.prev = _context.next) {
           case 0:
             _context.next = 2;
-            return cross_fetch__WEBPACK_IMPORTED_MODULE_0___default()('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
-              method: 'POST',
-              body: JSON.stringify({
-                name: 'Leaderboard'
-              }),
-              headers: {
-                'Content-type': 'application/json; charset=UTF-8'
-              }
-            });
+            return cross_fetch__WEBPACK_IMPORTED_MODULE_0___default()('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/');
 
           case 2:
             res = _context.sent;
@@ -152,26 +144,31 @@ var createGame = /*#__PURE__*/function () {
   };
 }();
 var getGamescore = /*#__PURE__*/function () {
-  var _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(id) {
-    var res, resParse, scores;
+  var _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
+    var id,
+        res,
+        resParse,
+        scores,
+        _args2 = arguments;
     return regeneratorRuntime.wrap(function _callee2$(_context2) {
       while (1) {
         switch (_context2.prev = _context2.next) {
           case 0:
-            _context2.next = 2;
+            id = _args2.length > 0 && _args2[0] !== undefined ? _args2[0] : y6HPZg0cyzKNDBfXdFk3;
+            _context2.next = 3;
             return cross_fetch__WEBPACK_IMPORTED_MODULE_0___default()("https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/".concat(id, "/scores"));
 
-          case 2:
+          case 3:
             res = _context2.sent;
             resParse = res.json();
-            _context2.next = 6;
+            _context2.next = 7;
             return resParse;
 
-          case 6:
+          case 7:
             scores = _context2.sent;
             return _context2.abrupt("return", scores);
 
-          case 8:
+          case 9:
           case "end":
             return _context2.stop();
         }
@@ -179,7 +176,7 @@ var getGamescore = /*#__PURE__*/function () {
     }, _callee2);
   }));
 
-  return function getGamescore(_x) {
+  return function getGamescore() {
     return _ref2.apply(this, arguments);
   };
 }();
@@ -219,7 +216,7 @@ var addScore = /*#__PURE__*/function () {
     }, _callee3);
   }));
 
-  return function addScore(_x2, _x3, _x4) {
+  return function addScore(_x, _x2, _x3) {
     return _ref3.apply(this, arguments);
   };
 }();
