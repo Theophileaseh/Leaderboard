@@ -6,7 +6,7 @@ export const createGame = async () => {
   return resParse.result;
 };
 
-export const getGamescore = async (id = y6HPZg0cyzKNDBfXdFk3) => {
+export const getGamescore = async (id) => {
   const res = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores`);
   const resParse = res.json();
   const scores = await resParse;
