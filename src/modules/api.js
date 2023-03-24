@@ -48,5 +48,5 @@ const getScores = async () => {
 getScores();
 
 refreshBtn.addEventListener('click', () => {
-  getScores();
+  window.history.go(0);
 });
