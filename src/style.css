@@ -55,6 +55,7 @@ body {
   overflow-y: auto;
   color: #fff;
   overflow-x: hidden;
+  background: #12091b;
 }
 
 .score-list {
@@ -97,4 +98,14 @@ input {
   border: 2px solid #fff;
   background: #120212;
   color: #fff;
+}
+
+.single-user-score {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+.single-user-score:nth-child(even) {
+  background: #361f45;
 }
