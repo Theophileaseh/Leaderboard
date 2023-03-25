@@ -117,7 +117,8 @@ input {
     flex-direction: column;
   }
 
-  .scores, .add-scores {
+  .scores,
+  .add-scores {
     width: 100%;
   }
 }
