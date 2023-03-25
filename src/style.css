@@ -5,11 +5,13 @@ body {
   padding: 0;
   background: #120212;
   font-family: 'Lobster', sans-serif;
+  height: 110vh;
 }
 
 .head {
   margin-top: 15% !important;
   color: #fff;
+  text-align: center;
 }
 
 .heading {
@@ -18,7 +20,7 @@ body {
 
 .head,
 .main {
-  width: 500px;
+  width: 70%;
   margin: 0 auto;
   color: #fff;
 }
@@ -108,4 +110,14 @@ input {
 
 .single-user-score:nth-child(even) {
   background: #361f45;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .scores, .add-scores {
+    width: 100%;
+  }
 }
