@@ -60,8 +60,8 @@ body {
   background: #12091b;
 }
 
-.score-list {
-  padding: 0;
+.score-board::-webkit-scrollbar {
+  display: none;
 }
 
 .single-score {
